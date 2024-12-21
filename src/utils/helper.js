@@ -1,7 +1,7 @@
 export const HEADER_LIST = [
     {
         url: '/',
-        name: 'How We Help ▼' ,
+        name: 'How We Help' ,
         subMenu: [
            "dummy",
            "dummy",
@@ -10,7 +10,7 @@ export const HEADER_LIST = [
     },
     {
         url: '/',
-        name: 'Who We Help ▼' ,
+        name: 'Who We Help' ,
         subMenu: [
            "dummy",
            "dummy",
@@ -19,7 +19,7 @@ export const HEADER_LIST = [
     },
     {
         url: '/',
-        name: 'Why Venveo ▼' ,
+        name: 'Why Venveo' ,
         subMenu: [
            "dummy",
            "dummy",
@@ -28,7 +28,7 @@ export const HEADER_LIST = [
     },
     {
         url: '/',
-        name: 'Resources ▼' ,
+        name: 'Resources' ,
         subMenu: [
            "dummy",
            "dummy",

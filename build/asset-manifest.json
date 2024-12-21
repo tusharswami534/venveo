@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e26e3c0a.css",
+    "main.js": "/static/js/main.c63ae977.js",
+    "static/js/488.ba23e95b.chunk.js": "/static/js/488.ba23e95b.chunk.js",
+    "static/media/Maison-Neue.ttf": "/static/media/Maison-Neue.3c31581a3956d1dcf105.ttf",
+    "static/media/MaisonNeue-Light.ttf": "/static/media/MaisonNeue-Light.30099586ef9f852d78e6.ttf",
+    "static/media/MaisonNeue-Book.ttf": "/static/media/MaisonNeue-Book.941caedd071a45bbfb7a.ttf",
+    "static/media/MaisonNeue-Medium.ttf": "/static/media/MaisonNeue-Medium.780d460d77819660011f.ttf",
+    "static/media/MaisonNeue-Demi.ttf": "/static/media/MaisonNeue-Demi.3a0201c79c41390ead16.ttf",
+    "static/media/TestSohneSchmal-Dreiviertelfett-BF663d89cad1b90.otf": "/static/media/TestSohneSchmal-Dreiviertelfett-BF663d89cad1b90.7e32b515c2a5b4cb2c24.otf",
+    "index.html": "/index.html",
+    "main.e26e3c0a.css.map": "/static/css/main.e26e3c0a.css.map",
+    "main.c63ae977.js.map": "/static/js/main.c63ae977.js.map",
+    "488.ba23e95b.chunk.js.map": "/static/js/488.ba23e95b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e26e3c0a.css",
+    "static/js/main.c63ae977.js"
+  ]
+}
