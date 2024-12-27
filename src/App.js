@@ -1,10 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router';
 import './App.css';
-import Hero from './components/home/Hero';
+import Home from './views/Home';
 
 function App() {
   return (
     <>
-    <Hero/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }

@@ -2,30 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: "Maison Neue";
-    src: url(../public/assets/fonts/Maison-Neue.ttf) format("truetype");
-  }
+  font-family: "maisonBold";
+  src:url(../public/assets/fonts/maison-neue-bold.woff2) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
   
-  @font-face {
-    font-family: "MaisonNeueDemi";
-    src: url(../public/assets/fonts/MaisonNeue-Demi.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: "MaisonNeueMedium";
-    src: url(../public/assets/fonts/MaisonNeue-Medium.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: "MaisonNeueBook";
-    src: url(../public/assets/fonts/MaisonNeue-Book.ttf) format("truetype");
-  }
-  
-  @font-face {
-    font-family: "MaisonNeueLight";
-    src: url(../public/assets/fonts/MaisonNeue-Light.ttf) format("truetype");
-  }
-  
+@font-face {
+  font-family: "maisonRegular";
+  src:url(../public/assets/fonts/maison-neue-regular.woff2) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "maisonMedium";
+  src:url(../public/assets/fonts/maison-neue-medium.woff2) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
   @font-face {
     font-family: "Sohne Schmal";
     src: url(../public/assets/fonts/TestSohneSchmal-Dreiviertelfett-BF663d89cad1b90.otf)
