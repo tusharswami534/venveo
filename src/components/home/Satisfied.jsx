@@ -28,15 +28,15 @@ const Satisfied = () => {
                         </div>
                         <div className="flex items-center justify-center gap-12 mt-[13px] mb-[33px]">
                             <div>
-                                <p className="text-[50px] font-bold max-lg:text-4xl max-md:text-3xl font-sohneschmal text-black leading-[44px]">{obj.leads}</p>
+                                <p className="text-[50px] font-bold max-lg:text-4xl max-md:text-3xl font-sohne text-black leading-[44px]">{obj.leads}</p>
                                 <p className="font-medium text-black leading-[15px]">{obj.leadText}</p>
                             </div>
                             <div>
-                                <p className="text-[50px] max-lg:text-4xl max-md:text-3xl font-bold font-sohneschmal text-black leading-[44px]">{obj.adLeads}</p>
+                                <p className="text-[50px] max-lg:text-4xl max-md:text-3xl font-bold font-sohne text-black leading-[44px]">{obj.adLeads}</p>
                                 <p className="font-medium text-black leading-[15px]">{obj.adLeadsText}</p>
                             </div>
                             <div>
-                                <p className="text-[50px] max-lg:text-4xl max-md:text-3xl font-bold font-sohneschmal text-black leading-[44px]">
+                                <p className="text-[50px] max-lg:text-4xl max-md:text-3xl font-bold font-sohne text-black leading-[44px]">
                                     {obj.webTraffic}
                                 </p>
                                 <p className="font-medium text-black leading-[15px]">{obj.webTrafficText}</p>

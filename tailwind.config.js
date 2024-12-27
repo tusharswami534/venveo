@@ -11,6 +11,7 @@
          'ocean': '#097980',
          'cloudy-blue': '#9DC9CC',
          'light-red': '#FF4242',
+         'ball-blue': '#00AFB5',
        },
        fontFamily: {
          sohne: ["Sohne Schmal", "sans-serif"],

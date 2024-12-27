@@ -71,12 +71,7 @@ const Header = () => {
               {item.subMenu && activeIndex === index && (
                 <div className="absolute left-0 mt-2 w-24 z-[52] bg-white text-gray-800 rounded shadow-lg">
                   {item.subMenu.map((subItem, subIndex) => (
-                    <a
-                      key={subIndex}
-                      href="#"
-                      onClick={handleDropDown}
-                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
-                    > {subItem} </a>
+                    <a key={subIndex} href="/" onClick={handleDropDown} className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"> {subItem} </a>
                   ))}
                 </div>
               )}
