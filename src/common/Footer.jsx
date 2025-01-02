@@ -19,7 +19,7 @@ const Footer = () => {
                           <h3 className='mb-[25px] font-medium uppercase font-maisonMedium text-[12px] leading-[13px] text-white'>{list.heading}</h3>
                           <ul>
                             {list.footerList.map((item, index) => (
-                              <li key={index} className='leading-[30px] text-[15px] font-light text-white font-maisonLight'><Link to={'#'}>{item}</Link></li>
+                              <li key={index} className='leading-[30px] hover:scale-105 transition-all duration-300 ease-linear text-[15px] font-light text-white font-maisonLight'><Link to={'#'}>{item}</Link></li>
                             ))}
                           </ul>
                       </div>
