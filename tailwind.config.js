@@ -31,7 +31,10 @@
        backgroundImage: {
          'amber-book': "url('/public/assets/images/webp/satisfied-sky-bg-image.webp')",
          'farnsworth': "url('/public/assets/images/webp/satisfied-green-bg-image.webp')",
-         'us-lbm': "url('/public/assets/images/webp/satisfied-yellow-bg-image.webp')"
+         'us-lbm': "url('/public/assets/images/webp/satisfied-yellow-bg-image.webp')",
+         'card-1' : "url('/public/assets/images/webp/read-more-1.webp')",
+         'card-2' : "url('/public/assets/images/webp/read-more-2.webp')",
+         'card-3' : "url('/public/assets/images/webp/read-more-3.webp')",
 
        }
      },

@@ -12,7 +12,7 @@ const GrowthPartner = () => {
   };
 
   return (
-    <div className="max-w-[1920px] mx-auto flex flex-col py-14 justify-center items-center">
+    <div className="max-w-[1920px] mx-auto flex flex-col relative py-14 max-sm:py-12 justify-center items-center">
       <div className="w-full">
         <h2 className="text-[80px] max-lg:text-7xl uppercase max-md:text-6xl font-bold text-center font-sohne leading-86">
           The growth partner
@@ -20,10 +20,10 @@ const GrowthPartner = () => {
         <h3 className="font-light font-maisonLight text-3xl leading-[100%] text-center mt-1.5">
           you’ve been looking for.
         </h3>
-        <p className="font-normal text-[15px] mb-[105px] leading-[20px] text-center font-maisonMedium mt-[43px]">
+        <p className="font-normal text-[15px] mb-[105px] max-lg:my-12 max-md:my-10 max-sm:my-6 leading-[20px] text-center font-maisonRegular mt-[43px]">
           Businesses trust Venveo to power grow.
         </p>
-        <div className="flex justify-center max-lg:overflow-auto whitespace-nowrap max-lg:py-5 items-center gap-[78px] max-lg:gap-10 max-lg:mx-5">
+        <div className="flex justify-center max-lg:overflow-auto whitespace-nowrap max-lg:py-5  items-center gap-[78px] max-lg:gap-10 max-lg:mx-5">
           <button
             className={`relative ${activeTab === 1 ? '' : 'opacity-35'}`}
             onClick={() => handleTabClick(1, 'one', '1')}
@@ -58,10 +58,10 @@ const GrowthPartner = () => {
             />
           </button>
         </div>
-        <div className="w-full mt-[58px]">
+        <div className="w-full mt-[58px] max-md:mt-10 max-sm:mt-6">
           <div className={`relative max-w-[1280px] w-full mx-auto ${activeTab === 1 ? 'block' : 'hidden'}`}>
             <div
-              style={{ backgroundImage: 'url(./assets/images/png/smartest.png)' }}
+              style={{ backgroundImage: 'url(./assets/images/webp/smartest.webp)' }}
               className="bg-cover p-[75px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             >
               <h2 className="uppercase max-w-[325px] text-[80px] font-bold font-sohne leading-86 text-white">
@@ -80,7 +80,7 @@ const GrowthPartner = () => {
           </div>
           <div className={`${activeTab === 2 ? 'block' : 'hidden'}`}>
             <div
-              style={{ backgroundImage: 'url(./assets/images/png/proven-results-bg.png)' }}
+              style={{ backgroundImage: 'url(./assets/images/webp/proven-results-bg.webp)' }}
               className="bg-cover p-[75px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             >
               <h2 className="uppercase text-[80px] font-bold font-sohne leading-86 text-white">
@@ -93,12 +93,14 @@ const GrowthPartner = () => {
           </div>
           <div className={`${activeTab === 3 ? 'block' : 'hidden'}`}>
             <div
-              style={{ backgroundImage: 'url(./assets/images/png/project-radar.png)' }}
+              style={{ backgroundImage: 'url(./assets/images/webp/project-radar.webp)' }}
               className="bg-cover p-[75px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             ></div>
           </div>
         </div>
       </div>
+      <img className='absolute bottom-[5%] z-[-10] left-0 w-full max-h-[19px] ' src="./assets/images/webp/tab-section-line-1.webp" alt="line-1" />
+      <img className='absolute bottom-[3%] z-[-10] left-0 w-full max-h-[19px] ' src="./assets/images/webp/tab-section-line-2.webp" alt="line-1" />
     </div>
   );
 };

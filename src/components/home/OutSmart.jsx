@@ -2,8 +2,8 @@ import React from 'react'
 
 const OutSmart = () => {
   return (
-    <div style={{backgroundImage: 'url(./assets/images/png/Outsmart-bg-image.png)'}} className='bg-cover max-xl:px-3 relative bg-center py-[100px]'>
-        <div className='max-w-[1096px] mx-auto flex justify-between items-center max-lg:flex-col max-lg:gap-20 max-lg:justify-center w-full'>
+    <div style={{backgroundImage: 'url(./assets/images/webp/outsmart-bg-image.webp)'}} className='bg-cover max-xl:px-3 relative bg-center py-[100px] max-lg:py-20 max-md:py-16 max-sm:py-12 '>
+        <div className='max-w-[1096px] mx-auto flex justify-between items-center max-lg:flex-col max-lg:gap-20 max-md:gap-12 max-sm:gap-8 max-lg:justify-center w-full'>
           <img className='absolute right-[45%] top-[69%] translate-y-[-50%]' src="./assets/images/svg/our-arrow.svg" alt="" />
           <div>
             <h3 className='font-normal text-[15px] leading-[20px] font-maisonMedium'>Get a free competitive analysis on your market</h3>

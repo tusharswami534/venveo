@@ -25,3 +25,26 @@
   background-color: white !important;
   border-radius: 0 !important;
   }
+
+  @media (max-width:768px) {
+    @keyframes slide-right  {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .slide-scroll-left {
+    animation: slide-right 10s linear infinite alternate;
+  }
+
+  .slide-scroll-left:hover {
+    animation-play-state: paused;
+  }
+  .logo-icon svg{
+    width: 49px !important;
+  }
+  }

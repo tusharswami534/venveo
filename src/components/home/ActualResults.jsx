@@ -85,6 +85,7 @@ const ActualResults = () => {
           <img src="./assets/images/svg/next-slider-btn.svg" alt="next" />
         </button>
       </div>
+      <img className="translate-y-[13px] w-full" src="./assets/images/webp/slider-line.webp" alt="line" />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
+import { Link } from "react-router";
 
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -33,13 +34,16 @@ const Header = () => {
     !search && document.body.classList.remove('overflow-hidden')
   }, [search]);
 
+  useEffect(() => {
+    open && document.body.classList.add('overflow-hidden')
+    !open && document.body.classList.remove('overflow-hidden')
+  }, [open]);
+
   return (
     <div className="max-w-[1440px] mx-auto">
       <nav className="flex justify-between items-center pl-14 max-lg:px-5 max-lg:py-4 text-white">
         {/* Logo */}
-        <a className="relative z-30" href="/">
-          <img src="./assets/images/png/logo.png" alt="pageLogo" className="translate-y-4 min-h-[60px] max-sm:min-h-[40px]" />
-        </a> 
+        <Link className="relative z-30" to={''}><img src="./assets/images/webp/logo.webp" alt="pageLogo" className="translate-y-4 min-h-[60px] max-sm:min-h-[40px]" /></Link>
         <button
           onClick={handleOpen}
           className={`hidden size-6 justify-center relative z-[60] max-lg:flex flex-col overflow-hidden`}
@@ -71,7 +75,7 @@ const Header = () => {
               {item.subMenu && activeIndex === index && (
                 <div className="absolute left-0 mt-2 w-24 z-[52] bg-white text-gray-800 rounded shadow-lg">
                   {item.subMenu.map((subItem, subIndex) => (
-                    <a key={subIndex} href="/" onClick={handleDropDown} className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"> {subItem} </a>
+                    <Link to={''} onClick={handleDropDown} key={subIndex} className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"> {subItem}</Link>
                   ))}
                 </div>
               )}
@@ -84,9 +88,9 @@ const Header = () => {
                 <img className="cursor-pointer hover:scale-125 transition-all duration-500" src="./assets/images/svg/search.svg" alt="search svg" />
               </button>
           </form>
-          <button className="py-8 px-[31px] font-semibold flex justify-center items-center gap-1 text-black  bg-green-yellow">
+          <button className="py-8 px-[31px] font-semibold group flex justify-center items-center gap-1 text-black  bg-green-yellow">
           Let’s Talk
-          <img src="./assets/images/svg/button-arrow.svg" alt="" />
+          <img className="group-hover:translate-x-2 transition-all duration-300" src="./assets/images/svg/button-arrow.svg" alt="arrow" />
           </button>
         </div>
       </nav>

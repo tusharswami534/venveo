@@ -129,8 +129,7 @@ export const MARKETING_LIST = [{
     }
 ]
 
-export const ACTUAL_RESULTS_LIST = [
-    {
+export const ACTUAL_RESULTS_LIST = [{
         img: './assets/images/webp/sldier-image-one.webp',
         description: "“They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.”",
         subDescription: "Jon Vaughan,",
@@ -153,5 +152,66 @@ export const ACTUAL_RESULTS_LIST = [
         description: "“They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.”",
         subDescription: "Jon Vaughan,",
         text: "REGIONAL VP-SE AT US LBM"
+    }
+]
+
+export const CARDS_LIST = [{
+        background: "bg-card-1",
+        blueHeading: 'multi-channel marketing',
+        heading: 'How to Get Your Product into Lowe’s',
+        description: 'Understanding the process and maximize the opportunities',
+    },
+    {
+        background: "bg-card-2",
+        blueHeading: 'lead-gen',
+        heading: 'Get Your Sales Team Ready for Digital Leads',
+        description: 'Unlock substantial business growth by enhancing collaboration skills and digital marketing expertise',
+    },
+    {
+        background: "bg-card-3",
+        blueHeading: 'ecommerce',
+        heading: 'How to Sell Building Materials Online',
+        description: 'Explore how selling building materials online opens up wider audiences, efficient sales and insightful data',
+    },
+]
+
+export const FOOTER_LIST = [{
+        heading: 'how we help',
+        footerList: ['Drive More Awareness', 'Drive More Awareness', 'Build Your Brand', 'Improve your reputation', 'Track Results']
+    },
+    {
+        heading: 'wh0 we help',
+        footerList: ['Digital Advertising', 'Search Engine Ranking', 'Content Marketing', 'Email Marketing']
+    },
+    {
+        heading: 'why venveo',
+        footerList: ['About Us', 'Careers', 'Growth Studies', 'Testimonials']
+    },
+    {
+        heading: 'resources',
+        footerList: ['Articles', 'News', 'Webinars', 'EBooks', 'Podcast']
+    },
+]
+
+export const FOOTER_ICON_LIST = [
+    {
+        icon: './assets/images/svg/facebook.svg' ,
+        link : 'https://www.facebook.com/'
+    },
+    {
+        icon: './assets/images/svg/instagram.svg' ,
+        link : 'https://www.instagram.com/'
+    },
+    {
+        icon: './assets/images/svg/x.svg' , 
+        link : 'https://twitter.com/'
+    },
+    {
+        icon: './assets/images/svg/linked.svg',
+        link : 'https://www.linkedin.com/'
+    },
+    {
+        icon: './assets/images/svg/youtube.svg' , 
+        link : 'https://www.youtube.com/'
     }
 ]

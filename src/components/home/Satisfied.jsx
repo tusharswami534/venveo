@@ -4,14 +4,14 @@ import { SATISFIED_LIST } from '../../utils/helper'
 const Satisfied = () => {
   return (
     <div>
-      <div className="mt-[101px]  max-xl:mt-24 max-lg:mt-20 max-md:mt-10">
+      <div className="pt-[101px]  max-xl:pt-24 max-lg:pt-20 max-md:py-12">
           <p className='text-3xl leading-[100%] text-center font-light font-maisonLight'>Driving digital revenue for over</p>
-            <h2 className='text-[80px] max-lg:text-7xl max-md:text-6xl font-bold text-center font-sohne leading-86 mb-[88px] max-lg:pb-14 max-md:mb-12 max-sm:mb-8' ><span className='relative'>1,400+ <img className='absolute left-0 bottom-0' src="./assets/images/webp/number-line-image.webp" alt="" /> </span> satisfied clients.</h2>
+            <h2 className='text-[80px] max-lg:text-7xl max-md:text-6xl font-bold text-center font-sohne leading-86 pb-[88px] uppercase max-lg:pb-14 max-md:pb-12 max-sm:pb-8' ><span className='relative'>1,400+ <img className='absolute left-0 bottom-0' src="./assets/images/webp/number-line-image.webp" alt="" /> </span> satisfied clients.</h2>
            
-            <div className="flex flex-wrap justify-center max-xl:justify-center gap-[60px] max-lg:gap-10 mt-10 max-xl:m-4 max-w-[1440px] mx-auto">
+            <div className="flex flex-wrap justify-center max-xl:justify-center gap-[60px] max-lg:gap-10 max-md:gap-8 mt-10 max-xl:m-4 max-w-[1440px] mx-auto">
                 {SATISFIED_LIST.map((obj, i) => (
                     <div
-                        key={i} className={`bg-no-repeat bg-center relative bg-cover max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col !w-[440px] max-sm:w-[320px] ${obj.Background}`}>
+                        key={i} className={`bg-no-repeat hover:scale-105 transition-all duration-300 bg-center relative bg-cover max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col !w-[440px] max-sm:w-[320px] ${obj.Background}`}>
                         <div className='flex flex-col bg-white w-[382px] max-sm:w-[320px] rounded-[25px] shadow-lg px-7 pt-[38px] max-sm:m-4 pb-[31px] mx-7 mt-[31px]'>
                             <div className={i === 0 ? "absolute  bg-black text-white font-semibold text-[12px] border border-solid rounded-full w-[165px] py-2 top-3 ps-3 border-black" : i === 1 ? "absolute top-5 text-black font-semibold" : ""}>{obj.heading}</div>
                         <div className="mb-4">{obj.logo}</div>
