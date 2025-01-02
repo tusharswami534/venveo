@@ -47,6 +47,7 @@
   .slide-scroll-left:hover {
     animation-play-state: paused;
   }
+  
   .logo-icon svg{
     width: 49px !important;
   }
