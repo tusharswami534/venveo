@@ -1,6 +1,7 @@
 .swiper-button-next:after{
     display: none !important;
   }
+
   .swiper-button-prev:after{
     display: none !important;
   }
@@ -8,6 +9,7 @@
   .swiper-button-next{
     right: 0 !important;
   }
+
   .swiper-button-prev{
     left: 0 !important;
   }
@@ -27,7 +29,8 @@
   }
 
   @media (max-width:768px) {
-    @keyframes slide-right  {
+
+    @keyframes slide-left  {
     0% {
       transform: translateX(0%);
     }
@@ -38,7 +41,7 @@
   }
 
   .slide-scroll-left {
-    animation: slide-right 10s linear infinite alternate;
+    animation: slide-left 20s linear infinite;
   }
 
   .slide-scroll-left:hover {
@@ -47,4 +50,5 @@
   .logo-icon svg{
     width: 49px !important;
   }
-  }
+
+}

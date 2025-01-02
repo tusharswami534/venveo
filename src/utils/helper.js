@@ -136,13 +136,13 @@ export const ACTUAL_RESULTS_LIST = [{
         text: "REGIONAL VP-SE AT US LBM"
     },
     {
-        img: './assets/images/webp/sldier-image-one.webp',
+        img: './assets/images/webp/sldier-image-two.webp',
         description: "“They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.”",
         subDescription: "Jon Vaughan,",
         text: "REGIONAL VP-SE AT US LBM"
     },
     {
-        img: './assets/images/webp/sldier-image-one.webp',
+        img: './assets/images/webp/sldier-image-three.webp',
         description: "“They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.”",
         subDescription: "Jon Vaughan,",
         text: "REGIONAL VP-SE AT US LBM"

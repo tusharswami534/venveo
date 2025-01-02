@@ -22,6 +22,16 @@ const Featured = () => {
     <Fortune />
     <Forbes />
     <Inc />
+    <Wjs />
+    <Entrepreneur />
+    <Fortune />
+    <Forbes />
+    <Inc />
+    <Wjs />
+    <Entrepreneur />
+    <Fortune />
+    <Forbes />
+    <Inc />
   </div>
     </div>
 <img className='w-full max-h-[31px]' src="./assets/images/webp/featured-line.webp" alt="images" />

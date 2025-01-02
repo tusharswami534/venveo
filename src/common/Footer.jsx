@@ -47,13 +47,13 @@ const Footer = () => {
             </div>
         </div>
         <div className='max-w-[1440px] mx-auto'>
-        <div className='pt-20 max-lg:pt-14 max-md:pt-12 max-sm:pt-8 w-full flex justify-between max-xl:gap-7 items-end  max-xl:items-start max-xl:px-4 max-[769px]:flex-col max-[769px]:justify-center '>
+        <div className='pt-20 max-lg:pt-14 max-md:pt-12 max-sm:pt-8 w-full flex justify-between max-xl:gap-7 items-end  max-xl:items-start max-[769px]:flex-col max-[769px]:justify-center '>
                   <div className='max-[769px]:w-full max-[769px]:flex max-[769px]:justify-center max-[769px]:flex-col'>
                       <Link to="/" className='pb-0.5 w-full flex justify-center'> <img src="./assets/images/webp/logo.webp" alt="footer-logo" /> </Link>
                       <p className='max-w-[415px] text-white text-[13px] max-[769px]:text-center font-normal font-maisonLight leading-[153%] pt-5'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                           ©{currentYear} Venveo</p>
                   </div>
-                  <div className='flex gap-14 max-[769px]:mx-auto'>
+                  <div className='flex gap-14 max-sm:gap-7 max-[769px]:mx-auto'>
                       <div>
                           <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium pb-0.5 max-[769px]:text-center'>Visit</p>
                           <p className='pt-7'><Link to="/" className='text-white font-light font-maisonLight text-customXsm leading-[153%] max-[769px]:text-center'>100 N Main Street <span className='block'>#201 </span>

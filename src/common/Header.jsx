@@ -24,6 +24,7 @@ const Header = () => {
     setOpen(false)
   }
   
+
   const handleDropDown = () => {
     setActiveIndex(null)
     setOpen(false)
@@ -59,7 +60,7 @@ const Header = () => {
           ></span>
         </button>
         <div
-          className={`flex gap-[42px] max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full items-center pl-10 max-lg:flex-col bg-white max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}
+          className={`flex gap-[42px] max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full items-center lg:pl-10 max-lg:flex-col bg-white max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}
         >
           {HEADER_LIST.map((item, index) => (
             <div key={index} className="relative">

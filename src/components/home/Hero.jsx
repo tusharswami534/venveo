@@ -23,7 +23,7 @@ const Hero = () => {
         </form>
         <div className="relative lg:w-max mx-auto">
         <img className="mx-auto max-w-[870px] w-full relative z-10 mt-[66px] max-lg:mt-14 max-md:mt-10 max-sm:mt-8" src="./assets/images/webp/hero-image.webp" alt="" />
-        <img className="top-[80%] max-lg:top-[100%] max-lg:left-[80%] translate-y-[-50%] z-20 max-w-[107px] absolute left-[-5%]" src="./assets/images/webp/made-for-brands.webp" alt="made-for-brands" />
+        <img className="top-[80%] max-lg:top-[100%] max-lg:left-[80%] translate-y-[-50%] z-20 max-w-[107px] max-sm:size-24 absolute left-[-5%]" src="./assets/images/webp/made-for-brands.webp" alt="made-for-brands" />
         </div>
         </div>
       </div>

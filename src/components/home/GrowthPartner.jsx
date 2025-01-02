@@ -62,7 +62,7 @@ const GrowthPartner = () => {
           <div className={`relative max-w-[1280px] w-full mx-auto ${activeTab === 1 ? 'block' : 'hidden'}`}>
             <div
               style={{ backgroundImage: 'url(./assets/images/webp/smartest.webp)' }}
-              className="bg-cover p-[75px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
+              className="bg-cover p-[75px] max-md:p-[50px] max-sm:p-[30px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             >
               <h2 className="uppercase max-w-[325px] text-[80px] font-bold font-sohne leading-86 text-white">
                 the smartest minds in the industry
@@ -81,7 +81,7 @@ const GrowthPartner = () => {
           <div className={`${activeTab === 2 ? 'block' : 'hidden'}`}>
             <div
               style={{ backgroundImage: 'url(./assets/images/webp/proven-results-bg.webp)' }}
-              className="bg-cover p-[75px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
+              className="bg-cover p-[75px] max-md:p-[50px] max-sm:p-[30px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             >
               <h2 className="uppercase text-[80px] font-bold font-sohne leading-86 text-white">
                 Proven Results
@@ -94,7 +94,7 @@ const GrowthPartner = () => {
           <div className={`${activeTab === 3 ? 'block' : 'hidden'}`}>
             <div
               style={{ backgroundImage: 'url(./assets/images/webp/project-radar.webp)' }}
-              className="bg-cover p-[75px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
+              className="bg-cover p-[75px] max-md:p-[50px] max-sm:p-[30px] max-w-[1337px] h-[720px] bg-left xl:max-w-[1280px] w-full mx-auto min-h-[720px]"
             ></div>
           </div>
         </div>
